@@ -1,0 +1,30 @@
+.backgroundCollection{
+    background-color: white;
+}
+.collection{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.collection li{
+    padding: 13px 30px;
+}
+.collection li a{
+    color: #000;
+}
+
+@media (max-width:1000px) {
+    .collection{
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+    }
+}
+
+@media (max-width: 510px) {
+    .collection{
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+    }
+}

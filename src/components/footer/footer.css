@@ -1,0 +1,40 @@
+.fon{
+    background-image: url('../../assets/Footer\ img.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 200px;
+    /* height: 400px; */
+    width: 100%;
+}
+.fon .os{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+.os strong{
+    font-size: 28px;
+}
+.fon div .btns__div{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.btns__div input{
+    max-width: 400px;
+    width: 100%;
+    border: 0;
+    padding: 20px 10px;
+}
+.btns__div button{
+    border: 0;
+    padding: 20px 10px;
+    background-color: #ffffff4a;
+    color: #fff;
+}
+.all{
+    background-color: rgba(0, 0, 0, 0.228);
+    padding: 20px 0;
+}
